@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.behind-face {
+    background-color: #e0e5eb;
+    height: 180px;
+    width: 280px;
+    position: absolute;
+    top: 90px;
+    left: 90px;
+    z-index: 0;
+}
+
+.face {
+    background-image: url("./eyes.png");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 50px;
+    position: absolute;
+    z-index: 1;
+}
+
+.down {
+    font-size: 20px;
+    position: absolute;
+    left: 50px;
+    bottom: 190px;
+}
+
+button {
+    background-color: transparent;
+    border: 1px #dedee0 solid;
+    border-radius: 20px;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 5px;
+}
+.random-text{
+    width: 450px;
+    position: absolute;
+    right: 400px;
+    top: 60px;
+    line-height: 23px;
+}
+.random-text h1{
+    font-weight: lighter;
+}
+.strange>img{
+    position: absolute;
+    right: 550px;
+    bottom: 60px;
+    width: 300px;
+    height: 320px;
+    z-index: 1;
+    border: 1px solid #eee;
+    box-shadow: 0 0 0 1px #eee;
+}
+.behind-strange{
+    background-color: #fcd5ce;
+    height: 290px;
+    width: 300px;
+    position: absolute;
+    right: 450px;
+    bottom: 20px;
+    z-index: 0;
+}
