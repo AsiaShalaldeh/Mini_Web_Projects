@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./master.css">
+    <title>Attendance</title>
+</head>
+
+<body id="page">
+    <div>
+        <h1>Attendance for 6/30/2022</h1>
+        <table id="table">
+        </table>
+        <div class="threeButtons">
+            <button class="done" onclick="addNewStudent()">Add Students</button>
+            <button class="done" type="submit" onclick="saveData()">Save</button>
+            <button class="done" type="reset" onclick="resetAllData()">Clear All</button>
+        </div>
+        <div class="formContainer" id="popup">
+            <h2>Add New Student</h2>
+            <label>Student ID</label>
+            <input type="number" id="getID"><br>
+            <label>First Name</label>
+            <input type="text" id="getFirstName"><br>
+            <label>Last Name</label>
+            <input type="text" id="getLastName"><br>
+            <h4> Adding students without resetting the sheet !</h4>
+            <button class="done" type="submit" onclick="getData()">Save</button>
+            <button class="done cancel" onclick="closePupup()">Cancel</button>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
